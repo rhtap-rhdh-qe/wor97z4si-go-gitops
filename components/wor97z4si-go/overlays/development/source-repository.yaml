@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: wor97z4si-go-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/wor97z4si-go

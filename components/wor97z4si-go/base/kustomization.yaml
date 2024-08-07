@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: wor97z4si-go
+  janus-idp.io/tekton: wor97z4si-go
+  backstage.io/kubernetes-id: wor97z4si-go
+  backstage.io/kubernetes-namespace: rhtap-app 
+  app.kubernetes.io/part-of: wor97z4si-go
+resources:
+- deployment.yaml
+- route.yaml
+- service.yaml
